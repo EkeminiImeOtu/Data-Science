@@ -1,0 +1,18 @@
+------ Examples ------
+//label[text()='Email']/following-sibling::input[1]
+//td[text()='Maria Anders']/preceding-sibling::td/child::input
+//label[text()='Email']/following-sibling::input[1]/parent::div
+//div[@class='container']/child::input[@type='text']
+//div[@class='container']/descendant::button
+//div[@class='buttons']/ancestor-or-self::div
+//label[text()='Password']/following::input[1]
+
+------- Examples -------
+//td[text()=5000]
+//button[@id='refreshBtn' and @value='Refresh']
+//button[@id='refreshBtn' or @value='Refresh']
+//a[text()='Sign in']
+//a[contains(text(),'Sign')]
+//button[contains(@class,'sign')]
+//div[starts-with(@class,'container')]
+//label[normalize-space(text())='First Name']
